@@ -1,0 +1,8 @@
+Style guide for hypatiameraviglia.github.io
+FONTS
+
+COLORS
+dark grey: #464941
+deep green: #617b5a
+pale tan: #d8cd8e
+
