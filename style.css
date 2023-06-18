@@ -4,22 +4,22 @@ pale tan: #d8cd8e
 white*/
 
 body {font-family: nourd;
-font-size: 16px;
+font-size: 1em;
 background: #617b5a;
 color: white;
 }
 p {font-family: nourd;
-font-size: 16px;
+font-size: 1em;
 background: #617b5a;
 color: white;
 }
 h1 {font-family: nourd;
-font-size: 40px;
+font-size: 3em;
 background: #d8cd8e;
 color: white;
 }
 h2{font-family: nourd;
-font-size: 20px;
+font-size: 1.5em;
 background: #464941;
 color: white;
 }
