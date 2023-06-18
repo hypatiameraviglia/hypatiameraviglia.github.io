@@ -1,0 +1,25 @@
+/* dark grey: #464941
+deep green: #617b5a
+pale tan: #d8cd8e */
+
+body {font-family: nourd;
+font-size: 16px;
+background: #617b5a;
+color: white;
+}
+p {font-family: nourd;
+font-size: 16px;
+background: #617b5a;
+color: white;
+}
+h1 {font-family: nourd;
+font-size: 40px;
+background: #d8cd8e;
+color: white;
+}
+h2{font-family: nourd;
+font-size: 20px;
+background: #464941;
+color: white;
+}
+
