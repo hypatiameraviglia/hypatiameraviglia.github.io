@@ -3,22 +3,24 @@ deep green: #617b5a
 pale tan: #d8cd8e 
 white*/
 
-body {font-family: nourd;
-font-size: 1em;
+body {font-family: Futura, "Gill Sans", sans-serif;
+font-size: 100%;
+text-align: justify;
 background: #617b5a;
 color: white;
 }
-p {font-family: nourd;
+p {font-family: Futura, "Gill Sans", sans-serif;
 font-size: 1em;
+text-align: justify;
 background: #617b5a;
 color: white;
 }
-h1 {font-family: nourd;
+h1 {font-family: Futura, "Gill Sans", sans-serif;
 font-size: 3em;
 background: #d8cd8e;
 color: white;
 }
-h2{font-family: nourd;
+h2{font-family: Futura, "Gill Sans", sans-serif;
 font-size: 1.5em;
 background: #464941;
 color: white;
