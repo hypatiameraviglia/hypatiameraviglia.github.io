@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="../style.css">
 
         <style>
-                a:link {font-family:Futura, "Gill Sans", sans-serif;
+		a:link {font-family:Futura, "Gill Sans", sans-serif;
                 font-size: 16px;
                 color: white;
                 text-decoration: none;}
@@ -28,8 +28,25 @@
                 color: white;
                 text-decoration: none;}
         </style>
-
 </head>
+
+<style>
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	img {
+		max-width: 100%;
+		max-height: 100%;
+		float: left;
+	}
+	.text {
+		font-size: 70px;
+		padding-left: 20px;
+		padding-top: 20px;
+		float: left;
+	}
 
 <body>
 	<a href="aboutme.html">Home</a> | 
@@ -39,37 +56,52 @@
 
 	<h1> Hypatia Meraviglia </h1>
 
-	<img src="./rockwall.jpg" height="473" width="360"/>
+	<div class="container">
+		<div class="image">
+			<img src="./rockwall.jpg" height="473" width="360"/>
+		</div>
+		<div class="text">
+			<h2> How do parts of a system intertwine? </h2>
 
-	<span> How do parts of a system intertwine? </span>
+			<p> Im a planetary systems scientist working on my PhD at the School of Earth and Space Exploration at Arizona State University. </p>
+			<p> I like to think about how environment affects possible chemistry, winds and dunes on Titan, glittering ice plumes at Enceladus, and how people communicate through social media. </p>
+		</div>
+	</div>
 
-	<p> I'm a planetary systems scientist working on my PhD at the School of Earth and Space Exploration at Arizona State University. </p>
-	<p> I like to think about how environment affects possible chemistry, winds and dunes on Titan, glittering ice plumes at Enceladus, and how people communicate through social media. </p>
+	<div class="container">
+		<div class="text">
+			<p> A.A., General Education, 2019, University of Arkansas at Hope-Texarkana. </p>
+			<p> B.S., Physics, 2023, University of Central Arkansas. </p>
+			<p> B.A., Linguistics, 2023, University of Central Arkansas. </p>
+			<p> Ph.D., Geological Sciences, ~2028, Arizona State University. </p>
 
-	<p> A.A., General Education, 2019, University of Arkansas at Hope-Texarkana. </p>
-	<p> B.S., Physics, 2023, University of Central Arkansas. </p>
-	<p> B.A., Linguistics, 2023, University of Central Arkansas. </p>
-	<p> Ph.D., Geological Sciences, ~2028, Arizona State University. </p>
-
-	<img src="./titanjwst.webp" height="1200" width="800"/>
-
+		</div>
+		<div class="image">
+			<img src="./titanjwst.webp" height="100%" width="100%"/>
+		</div>
+		
 	<p> NASA, ESA, CSA, Webb Titan GTO Team, Alyssa Pagan (STScI) </p>
 
-	.container {
- 	display: grid;
- 	align-items: center;
- 	grid-template-columns: 1fr 1fr 1fr;
- 	column-gap: 5px;
-	}
+	</div>
 
-	img {
-  	max-width: 100%;
-  	max-height:100%;
-	}
+	<style>
+		.container {
+ 		display: grid;
+ 		align-items: center;
+ 		grid-template-columns: 1fr 1fr 1fr;
+ 		column-gap: 5px;
+		}
 
-	.text {
-  	font-size: 70px;
-	}
+		img {
+  		max-width: 100%;
+  		max-height:100%;
+		}
+
+		.text {
+  		font-size: 70px;
+		}
+	</style>
+
 	<a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/hypastro?ref_src=twsrc%5Etfw">Tweets by hypastro</a> 
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
